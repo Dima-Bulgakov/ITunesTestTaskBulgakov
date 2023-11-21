@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3280E07B2B0CC12B001C2FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E07A2B0CC12B001C2FE2 /* AppDelegate.swift */; };
 		3280E07D2B0CC12B001C2FE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E07C2B0CC12B001C2FE2 /* SceneDelegate.swift */; };
-		3280E07F2B0CC12B001C2FE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E07E2B0CC12B001C2FE2 /* ViewController.swift */; };
+		3280E07F2B0CC12B001C2FE2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E07E2B0CC12B001C2FE2 /* TabBarController.swift */; };
 		3280E0842B0CC12F001C2FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3280E0832B0CC12F001C2FE2 /* Assets.xcassets */; };
 		3280E0872B0CC12F001C2FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3280E0852B0CC12F001C2FE2 /* LaunchScreen.storyboard */; };
 		3280E09D2B0CCA8E001C2FE2 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E09C2B0CCA8E001C2FE2 /* UserDefaultsManager.swift */; };
@@ -32,7 +32,7 @@
 		3280E0772B0CC12B001C2FE2 /* ITunesTestTaskBulgakov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITunesTestTaskBulgakov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3280E07A2B0CC12B001C2FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3280E07C2B0CC12B001C2FE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3280E07E2B0CC12B001C2FE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3280E07E2B0CC12B001C2FE2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		3280E0832B0CC12F001C2FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3280E0862B0CC12F001C2FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3280E0882B0CC12F001C2FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		3280E0902B0CC571001C2FE2 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				3280E07E2B0CC12B001C2FE2 /* ViewController.swift */,
+				3280E07E2B0CC12B001C2FE2 /* TabBarController.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -324,7 +324,7 @@
 				3280E0BA2B0CCC34001C2FE2 /* FavorileTableViewCell.swift in Sources */,
 				3280E0B02B0CCBC2001C2FE2 /* MainDetailViewController.swift in Sources */,
 				3280E0B72B0CCC12001C2FE2 /* FavoriteDetailViewController.swift in Sources */,
-				3280E07F2B0CC12B001C2FE2 /* ViewController.swift in Sources */,
+				3280E07F2B0CC12B001C2FE2 /* TabBarController.swift in Sources */,
 				3280E0AB2B0CCB30001C2FE2 /* MainViewController.swift in Sources */,
 				3280E07B2B0CC12B001C2FE2 /* AppDelegate.swift in Sources */,
 				3280E0BD2B0CCC51001C2FE2 /* ProfileViewController.swift in Sources */,
