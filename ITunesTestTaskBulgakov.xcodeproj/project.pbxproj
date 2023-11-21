@@ -12,6 +12,20 @@
 		3280E07F2B0CC12B001C2FE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E07E2B0CC12B001C2FE2 /* ViewController.swift */; };
 		3280E0842B0CC12F001C2FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3280E0832B0CC12F001C2FE2 /* Assets.xcassets */; };
 		3280E0872B0CC12F001C2FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3280E0852B0CC12F001C2FE2 /* LaunchScreen.storyboard */; };
+		3280E09D2B0CCA8E001C2FE2 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E09C2B0CCA8E001C2FE2 /* UserDefaultsManager.swift */; };
+		3280E09F2B0CCA9A001C2FE2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E09E2B0CCA9A001C2FE2 /* APIManager.swift */; };
+		3280E0A12B0CCAA9001C2FE2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0A02B0CCAA9001C2FE2 /* UserModel.swift */; };
+		3280E0A32B0CCAB7001C2FE2 /* ITunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0A22B0CCAB7001C2FE2 /* ITunesModel.swift */; };
+		3280E0A52B0CCAC6001C2FE2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0A42B0CCAC6001C2FE2 /* ViewModel.swift */; };
+		3280E0A72B0CCB0C001C2FE2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0A62B0CCB0C001C2FE2 /* SignInViewController.swift */; };
+		3280E0A92B0CCB28001C2FE2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0A82B0CCB28001C2FE2 /* SignUpViewController.swift */; };
+		3280E0AB2B0CCB30001C2FE2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0AA2B0CCB30001C2FE2 /* MainViewController.swift */; };
+		3280E0B02B0CCBC2001C2FE2 /* MainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0AF2B0CCBC2001C2FE2 /* MainDetailViewController.swift */; };
+		3280E0B32B0CCBE1001C2FE2 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0B22B0CCBE1001C2FE2 /* MainTableViewCell.swift */; };
+		3280E0B52B0CCBFD001C2FE2 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0B42B0CCBFD001C2FE2 /* FavoriteViewController.swift */; };
+		3280E0B72B0CCC12001C2FE2 /* FavoriteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0B62B0CCC12001C2FE2 /* FavoriteDetailViewController.swift */; };
+		3280E0BA2B0CCC34001C2FE2 /* FavorileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0B92B0CCC34001C2FE2 /* FavorileTableViewCell.swift */; };
+		3280E0BD2B0CCC51001C2FE2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3280E0BC2B0CCC51001C2FE2 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		3280E0832B0CC12F001C2FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3280E0862B0CC12F001C2FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3280E0882B0CC12F001C2FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3280E09C2B0CCA8E001C2FE2 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		3280E09E2B0CCA9A001C2FE2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3280E0A02B0CCAA9001C2FE2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3280E0A22B0CCAB7001C2FE2 /* ITunesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesModel.swift; sourceTree = "<group>"; };
+		3280E0A42B0CCAC6001C2FE2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3280E0A62B0CCB0C001C2FE2 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3280E0A82B0CCB28001C2FE2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3280E0AA2B0CCB30001C2FE2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3280E0AF2B0CCBC2001C2FE2 /* MainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDetailViewController.swift; sourceTree = "<group>"; };
+		3280E0B22B0CCBE1001C2FE2 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		3280E0B42B0CCBFD001C2FE2 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		3280E0B62B0CCC12001C2FE2 /* FavoriteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailViewController.swift; sourceTree = "<group>"; };
+		3280E0B92B0CCC34001C2FE2 /* FavorileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavorileTableViewCell.swift; sourceTree = "<group>"; };
+		3280E0BC2B0CCC51001C2FE2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,172 @@
 		3280E0792B0CC12B001C2FE2 /* ITunesTestTaskBulgakov */ = {
 			isa = PBXGroup;
 			children = (
-				3280E07A2B0CC12B001C2FE2 /* AppDelegate.swift */,
-				3280E07C2B0CC12B001C2FE2 /* SceneDelegate.swift */,
-				3280E07E2B0CC12B001C2FE2 /* ViewController.swift */,
-				3280E0832B0CC12F001C2FE2 /* Assets.xcassets */,
-				3280E0852B0CC12F001C2FE2 /* LaunchScreen.storyboard */,
-				3280E0882B0CC12F001C2FE2 /* Info.plist */,
+				3280E08E2B0CC2DF001C2FE2 /* Supporting */,
+				3280E0902B0CC571001C2FE2 /* TabBar */,
+				3280E08F2B0CC551001C2FE2 /* Screens */,
+				3280E0992B0CC9D6001C2FE2 /* ViewModel */,
+				3280E0982B0CC9CE001C2FE2 /* Models */,
+				3280E09A2B0CCA58001C2FE2 /* Services */,
 			);
 			path = ITunesTestTaskBulgakov;
+			sourceTree = "<group>";
+		};
+		3280E08E2B0CC2DF001C2FE2 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0852B0CC12F001C2FE2 /* LaunchScreen.storyboard */,
+				3280E0832B0CC12F001C2FE2 /* Assets.xcassets */,
+				3280E07A2B0CC12B001C2FE2 /* AppDelegate.swift */,
+				3280E07C2B0CC12B001C2FE2 /* SceneDelegate.swift */,
+				3280E0882B0CC12F001C2FE2 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		3280E08F2B0CC551001C2FE2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0922B0CC58B001C2FE2 /* SignIn */,
+				3280E0932B0CC60D001C2FE2 /* SignUp */,
+				3280E0912B0CC584001C2FE2 /* Main */,
+				3280E0942B0CC616001C2FE2 /* Favorite */,
+				3280E0952B0CC624001C2FE2 /* Profile */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3280E0902B0CC571001C2FE2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3280E07E2B0CC12B001C2FE2 /* ViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		3280E0912B0CC584001C2FE2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0AE2B0CCB87001C2FE2 /* View */,
+				3280E0B12B0CCBD1001C2FE2 /* Cell */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3280E0922B0CC58B001C2FE2 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0AC2B0CCB6E001C2FE2 /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		3280E0932B0CC60D001C2FE2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0AD2B0CCB7E001C2FE2 /* View */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		3280E0942B0CC616001C2FE2 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0972B0CC82B001C2FE2 /* View */,
+				3280E0B82B0CCC1D001C2FE2 /* Cell */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		3280E0952B0CC624001C2FE2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0BB2B0CCC3E001C2FE2 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3280E0972B0CC82B001C2FE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0B42B0CCBFD001C2FE2 /* FavoriteViewController.swift */,
+				3280E0B62B0CCC12001C2FE2 /* FavoriteDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3280E0982B0CC9CE001C2FE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0A02B0CCAA9001C2FE2 /* UserModel.swift */,
+				3280E0A22B0CCAB7001C2FE2 /* ITunesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3280E0992B0CC9D6001C2FE2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0A42B0CCAC6001C2FE2 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3280E09A2B0CCA58001C2FE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3280E09C2B0CCA8E001C2FE2 /* UserDefaultsManager.swift */,
+				3280E09E2B0CCA9A001C2FE2 /* APIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3280E0AC2B0CCB6E001C2FE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0A62B0CCB0C001C2FE2 /* SignInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3280E0AD2B0CCB7E001C2FE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0A82B0CCB28001C2FE2 /* SignUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3280E0AE2B0CCB87001C2FE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0AA2B0CCB30001C2FE2 /* MainViewController.swift */,
+				3280E0AF2B0CCBC2001C2FE2 /* MainDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3280E0B12B0CCBD1001C2FE2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0B22B0CCBE1001C2FE2 /* MainTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3280E0B82B0CCC1D001C2FE2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0B92B0CCC34001C2FE2 /* FavorileTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3280E0BB2B0CCC3E001C2FE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3280E0BC2B0CCC51001C2FE2 /* ProfileViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +320,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3280E0B32B0CCBE1001C2FE2 /* MainTableViewCell.swift in Sources */,
+				3280E0BA2B0CCC34001C2FE2 /* FavorileTableViewCell.swift in Sources */,
+				3280E0B02B0CCBC2001C2FE2 /* MainDetailViewController.swift in Sources */,
+				3280E0B72B0CCC12001C2FE2 /* FavoriteDetailViewController.swift in Sources */,
 				3280E07F2B0CC12B001C2FE2 /* ViewController.swift in Sources */,
+				3280E0AB2B0CCB30001C2FE2 /* MainViewController.swift in Sources */,
 				3280E07B2B0CC12B001C2FE2 /* AppDelegate.swift in Sources */,
+				3280E0BD2B0CCC51001C2FE2 /* ProfileViewController.swift in Sources */,
+				3280E09F2B0CCA9A001C2FE2 /* APIManager.swift in Sources */,
+				3280E0A32B0CCAB7001C2FE2 /* ITunesModel.swift in Sources */,
+				3280E0A92B0CCB28001C2FE2 /* SignUpViewController.swift in Sources */,
+				3280E09D2B0CCA8E001C2FE2 /* UserDefaultsManager.swift in Sources */,
+				3280E0A72B0CCB0C001C2FE2 /* SignInViewController.swift in Sources */,
+				3280E0B52B0CCBFD001C2FE2 /* FavoriteViewController.swift in Sources */,
+				3280E0A12B0CCAA9001C2FE2 /* UserModel.swift in Sources */,
+				3280E0A52B0CCAC6001C2FE2 /* ViewModel.swift in Sources */,
 				3280E07D2B0CC12B001C2FE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +477,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YN6MGUXLHK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ITunesTestTaskBulgakov/Info.plist;
+				INFOPLIST_FILE = ITunesTestTaskBulgakov/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -309,7 +509,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YN6MGUXLHK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ITunesTestTaskBulgakov/Info.plist;
+				INFOPLIST_FILE = ITunesTestTaskBulgakov/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
